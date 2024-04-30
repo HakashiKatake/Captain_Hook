@@ -1,0 +1,1 @@
+9999999999{"name": "google", "version": "3.0.0", "summary": "Python bindings to the Google search engine.", "platform": "", "requires_dist": ["beautifulsoup4"], "requires_python": "", "files": [], "_cache_version": "1.0.0"}

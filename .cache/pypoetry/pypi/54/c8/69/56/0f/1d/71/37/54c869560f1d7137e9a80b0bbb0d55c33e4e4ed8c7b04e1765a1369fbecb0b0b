@@ -1,0 +1,1 @@
+9999999999{"name": "dataclasses", "version": "0.8", "summary": "A backport of the dataclasses module for Python 3.6", "platform": "", "requires_dist": null, "requires_python": ">=3.6, <3.7", "files": [], "_cache_version": "1.0.0"}

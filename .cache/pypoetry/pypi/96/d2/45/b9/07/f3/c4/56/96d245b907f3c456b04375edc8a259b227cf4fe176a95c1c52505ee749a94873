@@ -1,0 +1,1 @@
+9999999999{"name": "animec", "version": "0.4.2", "summary": "A module to get data about anime characters, news, info, lyrics and more.", "platform": null, "requires_dist": ["bs4 (>=0.0.1)", "urllib3 (>=1.25.9)"], "requires_python": "", "files": [], "_cache_version": "1.0.0"}

@@ -1,0 +1,1 @@
+9999999999{"name": "docker-pycreds", "version": "0.4.0", "summary": "Python bindings for the docker credentials store API", "platform": "", "requires_dist": ["six (>=1.4.0)"], "requires_python": "", "files": [], "_cache_version": "1.0.0"}

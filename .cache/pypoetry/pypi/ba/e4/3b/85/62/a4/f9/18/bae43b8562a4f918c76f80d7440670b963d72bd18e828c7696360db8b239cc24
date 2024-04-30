@@ -1,0 +1,1 @@
+9999999999{"name": "aiosqlite", "version": "0.17.0", "summary": "asyncio bridge to the standard sqlite3 module", "platform": "", "requires_dist": ["typing_extensions>=3.7.2"], "requires_python": ">=3.6", "files": [], "_cache_version": "1.0.0"}

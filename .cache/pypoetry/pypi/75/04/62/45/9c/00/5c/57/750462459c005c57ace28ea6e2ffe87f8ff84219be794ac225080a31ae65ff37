@@ -1,0 +1,1 @@
+9999999999{"name": "joke-api", "version": "1.0.0", "summary": "A cool wrapper for Joke API", "platform": "", "requires_dist": ["requests"], "requires_python": ">=3.5", "files": [], "_cache_version": "1.0.0"}

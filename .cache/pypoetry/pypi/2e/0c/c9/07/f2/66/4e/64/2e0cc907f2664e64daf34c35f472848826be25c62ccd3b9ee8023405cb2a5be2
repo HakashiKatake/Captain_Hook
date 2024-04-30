@@ -1,0 +1,1 @@
+9999999999{"name": "wikipedia", "version": "1.4.0", "summary": "Wikipedia API for Python", "platform": "UNKNOWN", "requires_dist": ["beautifulsoup4", "requests>=2.0.0,<3.0.0"], "requires_python": null, "files": [], "_cache_version": "1.0.0"}

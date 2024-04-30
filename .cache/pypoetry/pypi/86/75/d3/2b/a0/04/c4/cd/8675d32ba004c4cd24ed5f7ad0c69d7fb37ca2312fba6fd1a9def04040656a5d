@@ -1,0 +1,1 @@
+9999999999{"name": "mal", "version": "0.4.0", "summary": "A command line interface to your MyAnimeList profile", "platform": "unix", "requires_dist": ["requests (>=2.18.1)", "appdirs (>=1.4.0)", "decorating (==0.6.1)", "pypandoc; extra == 'Requires-Dist'"], "requires_python": "", "files": [], "_cache_version": "1.0.0"}

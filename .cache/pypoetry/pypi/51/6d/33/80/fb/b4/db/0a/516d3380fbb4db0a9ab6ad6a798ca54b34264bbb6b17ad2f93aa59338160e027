@@ -1,0 +1,1 @@
+9999999999{"name": "s3transfer", "version": "0.10.1", "summary": "An Amazon S3 Transfer Manager", "platform": null, "requires_dist": ["botocore (<2.0a.0,>=1.33.2)", "botocore[crt] (<2.0a.0,>=1.33.2) ; extra == 'crt'"], "requires_python": ">= 3.8", "files": [], "_cache_version": "1.0.0"}

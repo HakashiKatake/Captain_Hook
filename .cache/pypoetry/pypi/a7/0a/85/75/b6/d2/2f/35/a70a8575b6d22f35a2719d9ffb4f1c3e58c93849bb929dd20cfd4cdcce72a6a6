@@ -1,0 +1,1 @@
+9999999999{"name": "recordtype", "version": "1.4", "summary": "Similar to namedtuple, but instances are mutable.", "platform": null, "requires_dist": ["six"], "requires_python": "", "files": [], "_cache_version": "1.0.0"}

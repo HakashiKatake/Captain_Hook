@@ -1,0 +1,1 @@
+9999999999{"name": "pickleshare", "version": "0.7.5", "summary": "Tiny 'shelve'-like database with concurrency support", "platform": "", "requires_dist": ["pathlib2; python_version in \"2.6 2.7 3.2 3.3\""], "requires_python": "", "files": [], "_cache_version": "1.0.0"}

@@ -1,0 +1,1 @@
+9999999999{"name": "cloudpickle", "version": "3.0.0", "summary": "Pickler class to extend the standard pickle.Pickler functionality", "platform": null, "requires_dist": null, "requires_python": ">=3.8", "files": [], "_cache_version": "1.0.0"}

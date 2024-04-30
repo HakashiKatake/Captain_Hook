@@ -1,0 +1,1 @@
+9999999999{"name": "disputils", "version": "0.2.0", "summary": "Some utilities for discord.py. Making Discord bot development easier.", "platform": "", "requires_dist": ["discord.py (<2,>=1)"], "requires_python": ">=3.6", "files": [], "_cache_version": "1.0.0"}
