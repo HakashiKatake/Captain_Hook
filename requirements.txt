@@ -15,7 +15,6 @@ humanfriendly==10.0
 mal==0.4.0
 mal_api==0.4.0
 mention==0.1
-Pillow==8.4.0
 Pillow==10.3.0
 praw==7.6.0
 psutil==5.9.1
