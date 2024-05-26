@@ -1570,6 +1570,8 @@ if __name__ == '__main__':
         if filename.endswith('.py'):
             bot.load_extension(f'cogs.{filename[:-3]}')
 
+app.run(port=5000)
+
 @bot.command(brief="Random picture of a floofy")
 async def cuddly(ctx, member : discord.Member):
         async with ctx.channel.typing():
@@ -5604,7 +5606,7 @@ async def would_you_rather(ctx):
 
 
 
-app.run(port=5000)
+
 token = os.environ.get("DISCORD_TOKEN")
 bot.run(token)
 
