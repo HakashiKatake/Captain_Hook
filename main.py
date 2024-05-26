@@ -1566,11 +1566,12 @@ async def hug_error(ctx, error):
 
 
 if __name__ == '__main__':
+	app.run(port=5000)
     for filename in os.listdir('./cogs'):
         if filename.endswith('.py'):
             bot.load_extension(f'cogs.{filename[:-3]}')
 
-app.run(port=5000)
+
 
 @bot.command(brief="Random picture of a floofy")
 async def cuddly(ctx, member : discord.Member):
