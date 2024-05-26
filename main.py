@@ -53,9 +53,6 @@ from giphy_client.rest import ApiException
 from discord import Game
 from discord.ext.commands import BucketType
 from googlesearch import search 
-from threading import Thread
-from flask import Flask
-from keep_alive import keep_alive
 from discord.voice_client import VoiceClient
 from random import choice as randchoice
 from discord.ext import commands
