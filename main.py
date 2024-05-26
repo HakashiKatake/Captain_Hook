@@ -27,6 +27,7 @@ import urllib
 import secrets
 import sys
 import praw
+import flask
 import asyncio
 import aiosqlite
 import sqlite3
@@ -88,7 +89,13 @@ intents = discord.Intents.all()
 
 
 
+from flask import Flask
 
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
 
 
 with open("typingtext.txt","r") as file:
