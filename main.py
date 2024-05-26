@@ -51,7 +51,6 @@ from discord.ext.commands import has_permissions, MissingPermissions, is_owner
 from io import BytesIO
 from giphy_client.rest import ApiException
 from discord import Game
-from replit import db
 from discord.ext.commands import BucketType
 from googlesearch import search 
 from threading import Thread
