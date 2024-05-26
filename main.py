@@ -5604,7 +5604,7 @@ async def would_you_rather(ctx):
 
 
 
-
+app.run(port=5000)
 token = os.environ.get("DISCORD_TOKEN")
 bot.run(token)
 
