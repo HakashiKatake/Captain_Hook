@@ -5602,8 +5602,7 @@ async def would_you_rather(ctx):
 
 
 
-keep_alive()
-token = os.environ.get("bot_token")
+token = "OTE2OTYwMzY3MDE4NjUxNjc4.GAl6fI.t5hsiUmBQIVBWcjp1M0I_-CbuoFzYP1v5qtK7M"
 bot.run(token)
 
 
