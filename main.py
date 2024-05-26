@@ -1,5 +1,6 @@
 import discord,operator,qrcode
 import os
+from dotenv import load_dotenv
 import typing
 import animec
 import time
@@ -5598,7 +5599,7 @@ async def would_you_rather(ctx):
 
 
 
-token = "OTE2OTYwMzY3MDE4NjUxNjc4.GAl6fI.t5hsiUmBQIVBWcjp1M0I_-CbuoFzYP1v5qtK7M"
+token = os.getenv("DISCORD_TOKEN")
 bot.run(token)
 
 
