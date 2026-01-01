@@ -1,1 +1,0 @@
-9999999999{"name": "requests-oauth2", "version": "0.3.0", "summary": "OAuth2 support to Python-Requests HTTP library.", "platform": "", "requires_dist": ["requests", "six"], "requires_python": null, "files": [], "_cache_version": "1.0.0"}

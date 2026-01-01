@@ -1,1 +1,0 @@
-9999999999{"name": "ipycanvas", "version": "0.13.2", "summary": "Interactive widgets library exposing the browser's Canvas API", "platform": null, "requires_dist": ["ipywidgets<9,>=7.6.0", "numpy", "pillow>=6.0"], "requires_python": null, "files": [], "_cache_version": "1.0.0"}

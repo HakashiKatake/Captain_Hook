@@ -1,1 +1,0 @@
-9999999999{"name": "pure-eval", "version": "0.2.2", "summary": "Safely evaluate AST nodes without side effects", "platform": "", "requires_dist": ["pytest ; extra == 'tests'"], "requires_python": "", "files": [], "_cache_version": "1.0.0"}

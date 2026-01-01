@@ -1,0 +1,30 @@
+{
+    "name": "captain-hook-js",
+    "version": "1.0.0",
+    "description": "Captain Hook Discord Bot - Migrated to discord.js",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "node --watch src/index.js"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "captain-hook"
+    ],
+    "author": "Hakashi",
+    "license": "ISC",
+    "dependencies": {
+        "@discordjs/voice": "^0.19.0",
+        "@snazzah/davey": "^0.1.9",
+        "better-sqlite3": "^11.0.0",
+        "discord.js": "^14.14.1",
+        "dotenv": "^16.4.1",
+        "ffmpeg-static": "^5.2.0",
+        "jimp": "^0.22.10",
+        "libsodium-wrappers": "^0.7.16",
+        "node-fetch": "^3.3.2",
+        "sodium-native": "^5.0.10"
+    }
+}

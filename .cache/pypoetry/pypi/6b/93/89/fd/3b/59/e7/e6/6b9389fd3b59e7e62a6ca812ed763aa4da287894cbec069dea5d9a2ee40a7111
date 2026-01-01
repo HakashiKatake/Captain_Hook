@@ -1,1 +1,0 @@
-9999999999{"name": "SuperSuit", "version": "3.7.0", "summary": "Wrappers for Gymnasium and PettingZoo", "platform": null, "requires_dist": ["pettingzoo (>=1.22.0)", "tinyscaler (>=1.0.4)", "gymnasium (>=0.26.0)", "pygame (==2.1.2)", "pymunk (==6.2.1)"], "requires_python": ">=3.7", "files": [], "_cache_version": "1.0.0"}

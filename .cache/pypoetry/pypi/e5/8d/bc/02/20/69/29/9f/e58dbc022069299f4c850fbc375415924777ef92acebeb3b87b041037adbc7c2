@@ -1,1 +1,0 @@
-9999999999{"name": "dbd-music", "version": "0.0.6", "summary": "Simplest thing you could use for music in python.", "platform": "", "requires_dist": ["discord.py", "lavalink"], "requires_python": ">=3.6", "files": [], "_cache_version": "1.0.0"}

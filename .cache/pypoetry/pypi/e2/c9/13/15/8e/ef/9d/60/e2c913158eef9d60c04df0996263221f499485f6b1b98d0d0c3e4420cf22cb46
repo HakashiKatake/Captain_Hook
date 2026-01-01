@@ -1,1 +1,0 @@
-9999999999{"name": "comm", "version": "0.2.2", "summary": "Jupyter Python Comm implementation, for usage in ipykernel, xeus-python etc.", "platform": null, "requires_dist": ["traitlets>=4", "pytest; extra == 'test'"], "requires_python": ">=3.8", "files": [], "_cache_version": "1.0.0"}

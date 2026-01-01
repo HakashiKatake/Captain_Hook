@@ -1,1 +1,0 @@
-9999999999{"name": "msgpack-numpy", "version": "0.4.8", "summary": "Numpy data serialization using msgpack", "platform": null, "requires_dist": ["numpy (>=1.9.0)", "msgpack (>=0.5.2)"], "requires_python": "", "files": [], "_cache_version": "1.0.0"}

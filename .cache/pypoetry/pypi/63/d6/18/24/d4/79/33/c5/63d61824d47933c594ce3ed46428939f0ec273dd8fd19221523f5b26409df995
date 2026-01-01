@@ -1,1 +1,0 @@
-9999999999{"name": "svgutils", "version": "0.3.4", "summary": "Python SVG editor", "platform": "", "requires_dist": ["lxml"], "requires_python": "", "files": [], "_cache_version": "1.0.0"}

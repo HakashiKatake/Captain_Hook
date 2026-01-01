@@ -1,1 +1,0 @@
-9999999999{"name": "python-gitlab", "version": "4.4.0", "summary": "A python wrapper for the GitLab API", "platform": null, "requires_dist": ["requests >=2.25.0", "requests-toolbelt >=0.10.1", "argcomplete <3,>=1.10.0 ; extra == 'autocompletion'", "PyYaml >=6.0.1 ; extra == 'yaml'"], "requires_python": ">=3.8.0", "files": [], "_cache_version": "1.0.0"}

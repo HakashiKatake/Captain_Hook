@@ -1,1 +1,0 @@
-9999999999{"name": "vacefron.py", "version": "1.6.3", "summary": "A Wrapper for vacefron.nl/api written in Python.", "platform": "", "requires_dist": ["aiohttp"], "requires_python": ">=3.6", "files": [], "_cache_version": "1.0.0"}

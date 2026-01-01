@@ -1,1 +1,0 @@
-9999999999{"name": "matplotlib-inline", "version": "0.1.7", "summary": "Inline Matplotlib backend for Jupyter", "platform": null, "requires_dist": ["traitlets"], "requires_python": ">=3.8", "files": [], "_cache_version": "1.0.0"}

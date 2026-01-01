@@ -1,1 +1,0 @@
-9999999999{"name": "mention", "version": "0.1", "summary": "A Python wrapper around the Mention API.", "platform": "", "requires_dist": ["requests", "requests-oauth2 (>=0.3.0)"], "requires_python": "", "files": [], "_cache_version": "1.0.0"}
