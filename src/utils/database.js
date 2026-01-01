@@ -51,7 +51,7 @@ const statements = {
  */
 export function getPrefix(guildId) {
     const row = statements.getPrefix.get(guildId);
-    return row ? row.prefix : process.env.DEFAULT_PREFIX || '!';
+    return row ? row.prefix : process.env.DEFAULT_PREFIX || '$';
 }
 
 /**

@@ -18,7 +18,7 @@ export default {
         }
 
         // Get prefix for this guild
-        const prefix = message.guild ? getPrefix(message.guild.id) : process.env.DEFAULT_PREFIX || '!';
+        const prefix = message.guild ? getPrefix(message.guild.id) : process.env.DEFAULT_PREFIX || '$';
 
         // Check if message starts with prefix
         if (!message.content.startsWith(prefix)) return;
