@@ -33,6 +33,9 @@ export default {
     category: 'fun',
     guildOnly: false,
     cooldown: 3,
+    slashOptions: [
+        { name: 'question', description: 'Your question for the magic 8-ball', type: 'string', required: true }
+    ],
 
     async execute(message, args, client) {
         const question = args.join(' ');

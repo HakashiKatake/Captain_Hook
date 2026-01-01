@@ -10,6 +10,10 @@ export default {
     guildOnly: true,
     permissions: ['BanMembers'],
     cooldown: 5,
+    slashOptions: [
+        { name: 'user', description: 'User to ban', type: 'user', required: true },
+        { name: 'reason', description: 'Reason for ban', type: 'string', required: false }
+    ],
 
     async execute(message, args, client) {
         if (!message.member.permissions.has(PermissionFlagsBits.BanMembers)) {

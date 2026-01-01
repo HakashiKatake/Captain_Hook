@@ -9,6 +9,9 @@ export default {
     category: 'fun',
     guildOnly: false,
     cooldown: 3,
+    slashOptions: [
+        { name: 'thing', description: 'Thing to rate', type: 'string', required: false }
+    ],
 
     async execute(message, args, client) {
         const thing = args.join(' ') || message.author.username;

@@ -9,6 +9,9 @@ export default {
     category: 'info',
     guildOnly: true,
     cooldown: 5,
+    slashOptions: [
+        { name: 'user', description: 'User to get avatar for', type: 'user', required: false }
+    ],
 
     async execute(message, args, client) {
         const target = message.mentions.users.first() || message.author;
