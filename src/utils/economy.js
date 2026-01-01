@@ -1,5 +1,5 @@
 import { EmbedBuilder } from 'discord.js';
-import db from '../../utils/database.js';
+import db from './database.js';
 
 // Initialize economy table
 try {
