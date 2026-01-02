@@ -20,6 +20,46 @@ export default {
         // Get prefix for this guild
         const prefix = message.guild ? getPrefix(message.guild.id) : process.env.DEFAULT_PREFIX || '$';
 
+        // Handle bot mention
+        if (message.mentions.has(client.user) && !message.mentions.everyone) {
+            const mentionContent = message.content.replace(/<@!?\d+>/g, '').trim();
+
+            // Only respond if the message is just a mention (no other content)
+            if (!mentionContent || mentionContent.length < 3) {
+                const uptime = formatUptime(client.uptime);
+                const commandCount = client.commands.size;
+                const serverCount = client.guilds.cache.size;
+
+                const embed = new EmbedBuilder()
+                    .setTitle('🪝 Hey there! I\'m Captain Hook!')
+                    .setDescription(
+                        `Thanks for pinging me! Here's some info:\n\n` +
+                        `**Prefix:** \`${prefix}\`\n` +
+                        `**Help Command:** \`${prefix}help\`\n\n` +
+                        `**Quick Start:**\n` +
+                        `• \`${prefix}help\` - See all commands\n` +
+                        `• \`${prefix}help <command>\` - Get command info\n` +
+                        `• \`${prefix}prefix <new>\` - Change prefix\n\n` +
+                        `**Bot Stats:**\n` +
+                        `📊 **${commandCount}** commands\n` +
+                        `🌐 **${serverCount}** servers\n` +
+                        `⏱️ **${uptime}** uptime`
+                    )
+                    .setColor('#5865F2')
+                    .setThumbnail(client.user.displayAvatarURL())
+                    .addFields(
+                        {
+                            name: '🔗 Links',
+                            value: '[Invite](https://discord.com/api/oauth2/authorize?client_id=916960367018651678&permissions=8&scope=bot%20applications.commands) • [Support](https://discord.gg/MyneuXgVRr) • [Website](https://captain-hook-bot.vercel.app)',
+                            inline: false
+                        }
+                    )
+                    .setFooter({ text: 'Use the buttons below or type a command!' });
+
+                return message.reply({ embeds: [embed], allowedMentions: { repliedUser: false } });
+            }
+        }
+
         // Check if message starts with prefix
         if (!message.content.startsWith(prefix)) return;
 
@@ -131,4 +171,19 @@ async function handleAfkReturn(message) {
             allowedMentions: { users: [] }
         });
     }
+}
+
+/**
+ * Format uptime to human readable string
+ */
+function formatUptime(ms) {
+    const seconds = Math.floor(ms / 1000);
+    const minutes = Math.floor(seconds / 60);
+    const hours = Math.floor(minutes / 60);
+    const days = Math.floor(hours / 24);
+
+    if (days > 0) return `${days}d ${hours % 24}h`;
+    if (hours > 0) return `${hours}h ${minutes % 60}m`;
+    if (minutes > 0) return `${minutes}m ${seconds % 60}s`;
+    return `${seconds}s`;
 }
